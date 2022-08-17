@@ -1,0 +1,89 @@
+h2{
+    margin-top:4rem ;
+    color: #AAA;
+}
+
+.line{
+    margin-top: 4rem;
+    width: 100%;
+    height: 0.1px;
+    background-color: #AAA;
+    margin-bottom: 1rem;
+}
+
+.well{
+    background-color: #EEE;
+    padding: 3rem;
+}
+.well p{
+    font-weight: bold;
+    color: black;
+}
+.well input{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+.well .alert{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+
+}
+
+.rowTable{
+background-image: linear-gradient(#EEE, #FDFDFD);
+padding: 2.3rem 0.5rem;
+font-weight: 700;
+color: black;
+font-size: 1.5rem;
+
+}
+
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--bs-table-bg);
+     border-bottom-width: 0px;
+}
+/* 
+.visit{
+    /* margin-left: 15rem; */
+
+
+.widthText{
+    width: 65% ;
+}
+
+.end p{
+    color: #AAA;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: rgb(17, 103, 196);
+    border-color: rgb(17, 103, 196);
+    transition: all 1s;
+}
+.btn-primary:hover{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.btn-danger{
+    background-color: rgb(145, 0, 4);
+    border-color: rgb(145, 0, 4);
+}
+.btn-danger:hover{
+    background-color: #510d0e;
+    border: 1px solid #510d0e;
+    box-shadow: 2px 5px 3px 0px #888;
+}
